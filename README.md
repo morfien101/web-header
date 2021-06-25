@@ -1,2 +1,5 @@
 # web-header
-Simple service to show headers in web requests
+
+Simple web application that can be used to return the headers sent to it.
+
+Used for development work.
