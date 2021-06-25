@@ -8,7 +8,7 @@ import (
 )
 
 var (
-	version = "0.0.0"
+	version = "v0.0.0"
 
 	flagHelp    = flag.Bool("h", false, "Show the help menu")
 	flagVersion = flag.Bool("v", false, "Show version number for web-headers")
@@ -25,7 +25,7 @@ func main() {
 	}
 
 	if *flagVersion {
-		fmt.Printf("v%s", version)
+		fmt.Printf("%s", version)
 		return
 	}
 
